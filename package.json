@@ -12,23 +12,23 @@
     "minify-svg": "svgo --config=.svgo.config.js -q -r -f resources/"
   },
   "dependencies": {
-    "@femiwiki/ooui-femiwiki-theme": "https://github.com/femiwiki/OOUIFemiwikiTheme.git#REL1_39",
+    "@femiwiki/ooui-femiwiki-theme": "https://github.com/femiwiki/OOUIFemiwikiTheme.git#REL1_40",
     "xeicon": "https://github.com/xpressengine/XEIcon.git#2.3.3"
   },
   "devDependencies": {
     "@prettier/plugin-xml": "^2",
-    "@types/jquery": "^3.5.13",
+    "@types/jquery": "^3.5.16",
     "@types/node-fetch": "^3",
-    "@wdio/cli": "^7.19.7",
-    "@wdio/dot-reporter": "^7.19.7",
-    "@wdio/junit-reporter": "^7.19.7",
-    "@wdio/local-runner": "^7.19.7",
-    "@wdio/mocha-framework": "^7.19.7",
+    "@wdio/cli": "7.16.13",
+    "@wdio/dot-reporter": "^v7.28.0",
+    "@wdio/junit-reporter": "7.16.13",
+    "@wdio/local-runner": "7.16.13",
+    "@wdio/mocha-framework": "7.16.13",
     "@wikimedia/types-wikimedia": "^0.3.4",
-    "grunt-banana-checker": "^0.9.0",
+    "grunt-banana-checker": "^0.10.0",
     "prettier": "^2",
-    "svgo": "^2.8.0",
-    "typescript": "^4.6.4",
-    "wdio-mediawiki": "^2.1.0"
+    "svgo": "^3.0.2",
+    "typescript": "^4.8.2",
+    "wdio-mediawiki": "2.2.0"
   }
 }
